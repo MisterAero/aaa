@@ -1,0 +1,54 @@
+writeup /solutions
+https://docs.google.com/document/d/1TqTylz4O3EFyieKc8gtMdrppRBvIJYmZcoC0kUrHYqM/edit#
+
+sources:
+
+Didnt read this - user vs kernel space 
+https://www.usenix.org/legacy/publications/library/proceedings/sec04/tech/full_papers/johnson/johnson_html/cquk.html
+
+atomic operations:
+https://github.com/sysprog21/lkmpg/blob/master/examples/sleep.c
+
+acccess_ok
+https://elixir.bootlin.com/linux/latest/source/arch/arm64/include/asm/uaccess.h#L29
+https://elixir.bootlin.com/linux/latest/C/ident/in_nmi
+https://elixir.bootlin.com/linux/latest/C/ident/in_hardirq
+https://elixir.bootlin.com/linux/latest/C/ident/in_serving_softirq
+https://elixir.bootlin.com/linux/latest/C/ident/nmi_count
+https://elixir.bootlin.com/linux/latest/C/ident/hardirq_count
+https://elixir.bootlin.com/linux/latest/C/ident/softirq_count
+https://elixir.bootlin.com/linux/latest/C/ident/SOFTIRQ_OFFSET
+
+
+kernel modules & Kbuild
+https://linux-kernel-labs.github.io/refs/heads/master/labs/kernel_modules.html
+https://docs.kernel.org/kbuild/modules.html
+
+common/useful routines/api - kernel hacking
+https://www.kernel.org/doc/htmldocs/kernel-hacking/
+
+device drivers (char device)
+https://linux-kernel-labs.github.io/refs/heads/master/labs/device_model.html
+https://codebrowser.dev/linux/linux/fs/read_write.c.html
+https://github.com/raspberrypi/linux/blob/rpi-5.15.y/fs/read_write.c
+
+
+The Linux Kernel Module Programming Guide
+Linux Device Driver Development: Everything you need to start with device driver development for Linux kernel, 2nd Edition
+
+memory
+https://linux-kernel-labs.github.io/refs/heads/master/so2/lec7-memory-management.html
+
+syscall hooking
+https://github.com/sysprog21/lkmpg/blob/master/examples/syscall.c
+
+debugging
+https://www.kernel.org/doc/html/v4.15/admin-guide/dynamic-debug-howto.html
+https://training.ti.com/sites/default/files/docs/Kernel-Debug-Series-Part6-understand-kernel-oops.pdf
+https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/oops-tracing.txt?h=v4.9
+
+https://stackoverflow.com/questions/18607184/dmesg-is-not-showing-printk-statement
+https://www.kernel.org/doc/Documentation/printk-formats.txt
+https://www.kernel.org/doc/html/v5.0/core-api/printk-formats.html
+
+https://github.com/sysprog21/lkmpg

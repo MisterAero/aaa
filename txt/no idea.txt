@@ -1,0 +1,6 @@
+readelf -S xxxxxx | \
+sed 's|\[.*\]||g; \
+s|^ *\.|\.|g' | \
+grep '\.'
+how to find libc inside elf?
+

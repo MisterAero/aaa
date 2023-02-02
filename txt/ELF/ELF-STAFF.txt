@@ -1,0 +1,21 @@
+things that worked for ex3:
+Add needed library + change rpath to cwd (.)
+
+
+https://www.intezer.com/blog/malware-analysis/executable-linkable-format-101-part-2-symbols/
+https://www.intezer.com/blog/malware-analysis/executable-and-linkable-format-101-part-3-relocations/
+http://phrack.org/issues/58/4.html#article -pax ret2libc
+
+elfutils
+elfkickers
+
+runtime patching - ptrace(), procfs
+
+DT_NEEDED entries, PT_DYNAMIC segment
+only then does process relocations
+
+LD_PRELOAD - not permanent
+
+dl_open,dlsym, RTLD_NEXT
+
+56$ 129$

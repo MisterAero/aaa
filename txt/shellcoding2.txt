@@ -1,0 +1,9 @@
+shellcode c compiler:
+https://github.com/ixty/xarch_shellcode
+
+
+https://book.rada.re/tools/ragg2/ragg2.html
+
+https://github.com/rizinorg/rizin/blob/dev/BUILDING.md
+https://book.rizin.re/tools/rz-gg/rz-gg.html
+https://github.com/rizinorg/website/blob/main/content/gsoc/2022.md#exploitation-capabilities-improvements-175-hour-project

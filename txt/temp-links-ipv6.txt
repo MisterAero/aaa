@@ -1,0 +1,16 @@
+
+https://www.wireshark.org/docs/dfref/i/ipv6.routing.html
+https://wiki.wireshark.org/IPv6
+https://www.wireshark.org/docs/dfref/i/ipv6.html
+
+
+shodan
+https://asciinema.org/~Shodan
+https://www.shodan.io/search/filters
+https://help.shodan.io/the-basics/search-query-fundamentals
+https://www.youtube.com/watch?v=oDkg1zz6xlw
+https://www.youtube.com/watch?v=v2EdwgX72PQ
+https://www.youtube.com/watch?v=d7x-Bn_bqt0
+https://www.youtube.com/watch?v=01dLzan9g0E
+https://danielmiessler.com/study/shodan/
+https://cheatography.com/sir-slammington/cheat-sheets/shodan/

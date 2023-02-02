@@ -1,0 +1,337 @@
+✔ spawn(argv=['/bin/sh', '-c', './beginners_rev TSG{AAAAAAAAAAAAAAAAAAAAAAAAAAA}'])
+✔ attach(pid=5247)
+✔ enable_child_gating()
+✔ create_script()
+✔ load()
+✔ resume(pid=5247)
+⚡ message: pid=5247, payload={'type': 'open', 'path': '/tmp/frida-4fab83a76a392c22472b88d4de84e9b6/linjector-1'}
+⚡ child_added: Child(pid=5257, parent_pid=5247, origin=fork)
+✔ attach(pid=5257)
+✔ enable_child_gating()
+✔ create_script()
+✔ load()
+✔ resume(pid=5257)
+⚡ child_removed: Child(pid=5257, parent_pid=5247, origin=fork)
+⚡ detached: pid=5257, reason='process-replaced'
+⚡ child_added: Child(pid=5257, parent_pid=5257, origin=exec, path='./beginners_rev', argv=['./beginners_rev', 'TSG{AAAAAAAAAAAAAAAAAAAAAAAAAAA}'], envp={'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aero', 'SHLVL': '1', 'HOME': '/home/aero', 'OLDPWD': '/home/aero/tools/frida/ctf', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'aero', 'NAME': 'AERO-PC', 'WSL_INTEROP': '/run/WSL/160_interop', 'PULSE_SERVER': '/mnt/wslg/PulseServer', '_': '/usr/bin/python3', 'TERM': 'xterm-256color', 'PATH': '/home/aero/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files/Eclipse Adoptium/jdk-11.0.16.8-hotspot/bin:/mnt/c/Program Files/Eclipse Adoptium/jre-11.0.16.8-hotspot/bin:/mnt/c/Program Files/Alacritty/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Git LFS:/mnt/c/Program Files/BinDiff/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/010 Editor:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Users/Aero/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Aero/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Aero/AppData/Local/Microsoft/WindowsApps:/mnt/c/VSCODE/bin:/mnt/c/Program Files (x86)/Nmap:/mnt/c/Users/Aero/AppData/Local/GitHubDesktop/bin:/mnt/c/Program Files/Rizin/bin:/snap/bin:/home/aero/.fzf/bin', 'SNAKE': 'mushroom-mushroom', 'XDG_RUNTIME_DIR': '/mnt/wslg/runtime-dir', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/aero/tools/frida/ctf/tsg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'BADGER': 'badger-badger-badger', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''})
+✔ attach(pid=5257)
+✔ enable_child_gating()
+✔ create_script()
+✔ load()
+✔ resume(pid=5257)
+⚡ child_removed: Child(pid=5257, parent_pid=5257, origin=exec, path='./beginners_rev', argv=['./beginners_rev', 'TSG{AAAAAAAAAAAAAAAAAAAAAAAAAAA}'], envp={'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aero', 'SHLVL': '1', 'HOME': '/home/aero', 'OLDPWD': '/home/aero/tools/frida/ctf', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'aero', 'NAME': 'AERO-PC', 'WSL_INTEROP': '/run/WSL/160_interop', 'PULSE_SERVER': '/mnt/wslg/PulseServer', '_': '/usr/bin/python3', 'TERM': 'xterm-256color', 'PATH': '/home/aero/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files/Eclipse Adoptium/jdk-11.0.16.8-hotspot/bin:/mnt/c/Program Files/Eclipse Adoptium/jre-11.0.16.8-hotspot/bin:/mnt/c/Program Files/Alacritty/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Git LFS:/mnt/c/Program Files/BinDiff/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/010 Editor:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Users/Aero/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Aero/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Aero/AppData/Local/Microsoft/WindowsApps:/mnt/c/VSCODE/bin:/mnt/c/Program Files (x86)/Nmap:/mnt/c/Users/Aero/AppData/Local/GitHubDesktop/bin:/mnt/c/Program Files/Rizin/bin:/snap/bin:/home/aero/.fzf/bin', 'SNAKE': 'mushroom-mushroom', 'XDG_RUNTIME_DIR': '/mnt/wslg/runtime-dir', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/aero/tools/frida/ctf/tsg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'BADGER': 'badger-badger-badger', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''})
+⚡ message: pid=5257, payload={'type': 'open', 'path': '/tmp/frida-4fab83a76a392c22472b88d4de84e9b6/linjector-3'}
+⚡ message: pid=5257, payload={'type': 'open', 'path': '/tmp/frida-4fab83a76a392c22472b88d4de84e9b6/linjector-3'}
+⚡ child_added: Child(pid=5276, parent_pid=5257, origin=fork)
+✔ attach(pid=5276)
+✔ enable_child_gating()
+✔ create_script()
+✔ load()
+✔ resume(pid=5276)
+⚡ message: pid=5257, payload={'type': 'open', 'path': '/tmp/frida-4fab83a76a392c22472b88d4de84e9b6/linjector-3'}
+⚡ child_added: Child(pid=5288, parent_pid=5257, origin=fork)
+✔ attach(pid=5288)
+✔ enable_child_gating()
+✔ create_script()
+✔ load()
+✔ resume(pid=5288)
+⚡ child_removed: Child(pid=5276, parent_pid=5257, origin=fork)
+⚡ message: pid=5276, payload={'type': 'open', 'path': '/dev/null'}
+⚡ child_added: Child(pid=5301, parent_pid=5257, origin=fork)
+✔ attach(pid=5301)
+✔ enable_child_gating()
+✔ create_script()
+✔ load()
+✔ resume(pid=5301)
+⚡ message: pid=5257, payload={'type': 'open', 'path': '/tmp/frida-4fab83a76a392c22472b88d4de84e9b6/linjector-3'}
+⚡ message: pid=5276, payload={'type': 'open', 'path': '/tmp/frida-4fab83a76a392c22472b88d4de84e9b6/linjector-4'}
+⚡ child_added: Child(pid=5314, parent_pid=5257, origin=fork)
+✔ attach(pid=5314)
+✔ enable_child_gating()
+✔ create_script()
+✔ load()
+✔ resume(pid=5314)
+⚡ message: pid=5257, payload={'type': 'open', 'path': '/tmp/frida-4fab83a76a392c22472b88d4de84e9b6/linjector-3'}
+⚡ child_removed: Child(pid=5288, parent_pid=5257, origin=fork)
+⚡ message: pid=5276, payload={'type': 'open', 'path': '/tmp/frida-4fab83a76a392c22472b88d4de84e9b6/linjector-4'}
+⚡ child_added: Child(pid=5326, parent_pid=5276, origin=fork)
+✔ attach(pid=5326)
+✔ enable_child_gating()
+✔ create_script()
+✔ load()
+✔ resume(pid=5326)
+⚡ message: pid=5288, payload={'type': 'open', 'path': '/dev/null'}
+⚡ child_added: Child(pid=5339, parent_pid=5257, origin=fork)
+✔ attach(pid=5339)
+✔ enable_child_gating()
+✔ create_script()
+✔ load()
+✔ resume(pid=5339)
+⚡ child_added: Child(pid=5351, parent_pid=5276, origin=fork)
+✔ attach(pid=5351)
+✔ enable_child_gating()
+✔ create_script()
+✔ load()
+✔ resume(pid=5351)
+⚡ message: pid=5276, payload={'type': 'open', 'path': '/tmp/frida-4fab83a76a392c22472b88d4de84e9b6/linjector-4'}
+⚡ message: pid=5288, payload={'type': 'open', 'path': '/tmp/frida-4fab83a76a392c22472b88d4de84e9b6/linjector-5'}
+⚡ child_removed: Child(pid=5301, parent_pid=5257, origin=fork)
+⚡ child_added: Child(pid=5367, parent_pid=5276, origin=fork)
+✔ attach(pid=5367)
+✔ enable_child_gating()
+✔ create_script()
+✔ load()
+✔ resume(pid=5367)
+⚡ message: pid=5301, payload={'type': 'open', 'path': '/dev/null'}
+⚡ child_added: Child(pid=5377, parent_pid=5288, origin=fork)
+✔ attach(pid=5377)
+✔ enable_child_gating()
+✔ create_script()
+✔ load()
+✔ resume(pid=5377)
+⚡ message: pid=5276, payload={'type': 'open', 'path': '/tmp/frida-4fab83a76a392c22472b88d4de84e9b6/linjector-4'}
+⚡ message: pid=5288, payload={'type': 'open', 'path': '/tmp/frida-4fab83a76a392c22472b88d4de84e9b6/linjector-5'}
+⚡ message: pid=5301, payload={'type': 'open', 'path': '/tmp/frida-4fab83a76a392c22472b88d4de84e9b6/linjector-6'}
+⚡ child_added: Child(pid=5392, parent_pid=5276, origin=fork)
+✔ attach(pid=5392)
+✔ enable_child_gating()
+✔ create_script()
+✔ load()
+✔ resume(pid=5392)
+⚡ child_added: Child(pid=5403, parent_pid=5288, origin=fork)
+✔ attach(pid=5403)
+✔ enable_child_gating()
+✔ create_script()
+✔ load()
+✔ resume(pid=5403)
+⚡ child_added: Child(pid=5414, parent_pid=5301, origin=fork)
+✔ attach(pid=5414)
+✔ enable_child_gating()
+✔ create_script()
+✔ load()
+✔ resume(pid=5414)
+⚡ message: pid=5288, payload={'type': 'open', 'path': '/tmp/frida-4fab83a76a392c22472b88d4de84e9b6/linjector-5'}
+⚡ child_removed: Child(pid=5314, parent_pid=5257, origin=fork)
+⚡ message: pid=5301, payload={'type': 'open', 'path': '/tmp/frida-4fab83a76a392c22472b88d4de84e9b6/linjector-6'}
+⚡ message: pid=5314, payload={'type': 'open', 'path': '/dev/null'}
+⚡ child_added: Child(pid=5429, parent_pid=5288, origin=fork)
+✔ attach(pid=5429)
+✔ enable_child_gating()
+✔ create_script()
+✔ load()
+✔ resume(pid=5429)
+⚡ child_added: Child(pid=5441, parent_pid=5301, origin=fork)
+✔ attach(pid=5441)
+✔ enable_child_gating()
+✔ create_script()
+✔ load()
+✔ resume(pid=5441)
+⚡ child_removed: Child(pid=5326, parent_pid=5276, origin=fork)
+⚡ message: pid=5314, payload={'type': 'open', 'path': '/tmp/frida-4fab83a76a392c22472b88d4de84e9b6/linjector-7'}
+⚡ message: pid=5326, payload={'type': 'open', 'path': '/dev/null'}
+⚡ child_added: Child(pid=5455, parent_pid=5314, origin=fork)
+✔ attach(pid=5455)
+✔ enable_child_gating()
+✔ create_script()
+✔ load()
+✔ resume(pid=5455)
+⚡ child_removed: Child(pid=5339, parent_pid=5257, origin=fork)
+⚡ message: pid=5326, payload={'type': 'open', 'path': '/tmp/frida-4fab83a76a392c22472b88d4de84e9b6/linjector-8'}
+⚡ message: pid=5339, payload={'type': 'open', 'path': '/dev/null'}
+⚡ detached: pid=5339, reason='process-terminated'
+⚡ child_added: Child(pid=5467, parent_pid=5326, origin=fork)
+✔ attach(pid=5467)
+✔ enable_child_gating()
+✔ create_script()
+✔ load()
+✔ resume(pid=5467)
+⚡ message: pid=5326, payload={'type': 'open', 'path': '/tmp/frida-4fab83a76a392c22472b88d4de84e9b6/linjector-8'}
+⚡ child_removed: Child(pid=5351, parent_pid=5276, origin=fork)
+⚡ message: pid=5351, payload={'type': 'open', 'path': '/dev/null'}
+⚡ child_added: Child(pid=5482, parent_pid=5326, origin=fork)
+✔ attach(pid=5482)
+✔ enable_child_gating()
+✔ create_script()
+✔ load()
+✔ resume(pid=5482)
+⚡ message: pid=5326, payload={'type': 'open', 'path': '/tmp/frida-4fab83a76a392c22472b88d4de84e9b6/linjector-8'}
+⚡ message: pid=5351, payload={'type': 'open', 'path': '/tmp/frida-4fab83a76a392c22472b88d4de84e9b6/linjector-10'}
+⚡ child_removed: Child(pid=5367, parent_pid=5276, origin=fork)
+⚡ message: pid=5367, payload={'type': 'open', 'path': '/dev/null'}
+⚡ child_added: Child(pid=5496, parent_pid=5351, origin=fork)
+✔ attach(pid=5496)
+✔ enable_child_gating()
+✔ create_script()
+✔ load()
+✔ resume(pid=5496)
+⚡ child_added: Child(pid=5495, parent_pid=5326, origin=fork)
+✔ attach(pid=5495)
+✔ enable_child_gating()
+✔ create_script()
+✔ load()
+✔ resume(pid=5495)
+⚡ message: pid=5351, payload={'type': 'open', 'path': '/tmp/frida-4fab83a76a392c22472b88d4de84e9b6/linjector-10'}
+⚡ message: pid=5367, payload={'type': 'open', 'path': '/tmp/frida-4fab83a76a392c22472b88d4de84e9b6/linjector-11'}
+⚡ child_added: Child(pid=5521, parent_pid=5351, origin=fork)
+✔ attach(pid=5521)
+✔ enable_child_gating()
+✔ create_script()
+✔ load()
+✔ resume(pid=5521)
+⚡ child_removed: Child(pid=5377, parent_pid=5288, origin=fork)
+⚡ message: pid=5377, payload={'type': 'open', 'path': '/dev/null'}
+⚡ child_added: Child(pid=5531, parent_pid=5367, origin=fork)
+✔ attach(pid=5531)
+✔ enable_child_gating()
+✔ create_script()
+✔ load()
+✔ resume(pid=5531)
+⚡ message: pid=5377, payload={'type': 'open', 'path': '/tmp/frida-4fab83a76a392c22472b88d4de84e9b6/linjector-12'}
+⚡ child_removed: Child(pid=5392, parent_pid=5276, origin=fork)
+⚡ message: pid=5392, payload={'type': 'open', 'path': '/dev/null'}
+⚡ child_added: Child(pid=5545, parent_pid=5377, origin=fork)
+✔ attach(pid=5545)
+✔ enable_child_gating()
+✔ create_script()
+✔ load()
+✔ resume(pid=5545)
+⚡ detached: pid=5392, reason='process-terminated'
+⚡ message: pid=5377, payload={'type': 'open', 'path': '/tmp/frida-4fab83a76a392c22472b88d4de84e9b6/linjector-12'}
+⚡ child_removed: Child(pid=5403, parent_pid=5288, origin=fork)
+⚡ message: pid=5403, payload={'type': 'open', 'path': '/dev/null'}
+⚡ child_added: Child(pid=5557, parent_pid=5377, origin=fork)
+✔ attach(pid=5557)
+✔ enable_child_gating()
+✔ create_script()
+✔ load()
+✔ resume(pid=5557)
+⚡ child_removed: Child(pid=5414, parent_pid=5301, origin=fork)
+⚡ message: pid=5414, payload={'type': 'open', 'path': '/dev/null'}
+⚡ message: pid=5403, payload={'type': 'open', 'path': '/tmp/frida-4fab83a76a392c22472b88d4de84e9b6/linjector-14'}
+⚡ child_added: Child(pid=5571, parent_pid=5403, origin=fork)
+✔ attach(pid=5571)
+✔ enable_child_gating()
+✔ create_script()
+✔ load()
+✔ resume(pid=5571)
+⚡ child_removed: Child(pid=5429, parent_pid=5288, origin=fork)
+⚡ message: pid=5429, payload={'type': 'open', 'path': '/dev/null'}
+⚡ message: pid=5414, payload={'type': 'open', 'path': '/tmp/frida-4fab83a76a392c22472b88d4de84e9b6/linjector-15'}
+⚡ detached: pid=5429, reason='process-terminated'
+⚡ child_removed: Child(pid=5441, parent_pid=5301, origin=fork)
+⚡ message: pid=5441, payload={'type': 'open', 'path': '/dev/null'}
+⚡ child_added: Child(pid=5582, parent_pid=5414, origin=fork)
+✔ attach(pid=5582)
+✔ enable_child_gating()
+✔ create_script()
+✔ load()
+✔ resume(pid=5582)
+⚡ detached: pid=5441, reason='process-terminated'
+⚡ child_removed: Child(pid=5455, parent_pid=5314, origin=fork)
+⚡ message: pid=5455, payload={'type': 'open', 'path': '/dev/null'}
+⚡ detached: pid=5455, reason='process-terminated'
+⚡ child_removed: Child(pid=5467, parent_pid=5326, origin=fork)
+⚡ detached: pid=5314, reason='process-terminated'
+⚡ message: pid=5467, payload={'type': 'open', 'path': '/dev/null'}
+⚡ child_removed: Child(pid=5482, parent_pid=5326, origin=fork)
+⚡ message: pid=5482, payload={'type': 'open', 'path': '/dev/null'}
+⚡ message: pid=5467, payload={'type': 'open', 'path': '/tmp/frida-4fab83a76a392c22472b88d4de84e9b6/linjector-19'}
+⚡ message: pid=5482, payload={'type': 'open', 'path': '/tmp/frida-4fab83a76a392c22472b88d4de84e9b6/linjector-20'}
+⚡ child_added: Child(pid=5600, parent_pid=5467, origin=fork)
+✔ attach(pid=5600)
+✔ enable_child_gating()
+✔ create_script()
+✔ load()
+✔ resume(pid=5600)
+⚡ child_removed: Child(pid=5496, parent_pid=5351, origin=fork)
+⚡ message: pid=5467, payload={'type': 'open', 'path': '/tmp/frida-4fab83a76a392c22472b88d4de84e9b6/linjector-19'}
+⚡ message: pid=5496, payload={'type': 'open', 'path': '/dev/null'}
+⚡ child_added: Child(pid=5621, parent_pid=5467, origin=fork)
+✔ attach(pid=5621)
+✔ enable_child_gating()
+✔ create_script()
+✔ load()
+✔ resume(pid=5621)
+⚡ child_added: Child(pid=5610, parent_pid=5482, origin=fork)
+✔ attach(pid=5610)
+✔ enable_child_gating()
+✔ create_script()
+✔ load()
+✔ resume(pid=5610)
+⚡ message: pid=5496, payload={'type': 'open', 'path': '/tmp/frida-4fab83a76a392c22472b88d4de84e9b6/linjector-22'}
+⚡ child_removed: Child(pid=5495, parent_pid=5326, origin=fork)
+⚡ message: pid=5495, payload={'type': 'open', 'path': '/dev/null'}
+⚡ child_added: Child(pid=5637, parent_pid=5496, origin=fork)
+✔ attach(pid=5637)
+✔ enable_child_gating()
+✔ create_script()
+✔ load()
+✔ resume(pid=5637)
+⚡ detached: pid=5495, reason='process-terminated'
+⚡ child_removed: Child(pid=5521, parent_pid=5351, origin=fork)
+⚡ message: pid=5521, payload={'type': 'open', 'path': '/dev/null'}
+⚡ detached: pid=5521, reason='process-terminated'
+⚡ child_removed: Child(pid=5531, parent_pid=5367, origin=fork)
+⚡ message: pid=5531, payload={'type': 'open', 'path': '/dev/null'}
+⚡ detached: pid=5531, reason='process-terminated'
+⚡ detached: pid=5367, reason='process-terminated'
+⚡ child_removed: Child(pid=5545, parent_pid=5377, origin=fork)
+⚡ message: pid=5545, payload={'type': 'open', 'path': '/dev/null'}
+⚡ message: pid=5545, payload={'type': 'open', 'path': '/tmp/frida-4fab83a76a392c22472b88d4de84e9b6/linjector-25'}
+⚡ child_removed: Child(pid=5557, parent_pid=5377, origin=fork)
+⚡ message: pid=5557, payload={'type': 'open', 'path': '/dev/null'}
+⚡ child_added: Child(pid=5654, parent_pid=5545, origin=fork)
+✔ attach(pid=5654)
+✔ enable_child_gating()
+✔ create_script()
+✔ load()
+✔ resume(pid=5654)
+⚡ detached: pid=5557, reason='process-terminated'
+⚡ child_removed: Child(pid=5571, parent_pid=5403, origin=fork)
+⚡ message: pid=5571, payload={'type': 'open', 'path': '/dev/null'}
+⚡ detached: pid=5571, reason='process-terminated'
+⚡ detached: pid=5403, reason='process-terminated'
+⚡ child_removed: Child(pid=5582, parent_pid=5414, origin=fork)
+⚡ message: pid=5582, payload={'type': 'open', 'path': '/dev/null'}
+⚡ detached: pid=5582, reason='process-terminated'
+⚡ detached: pid=5414, reason='process-terminated'
+⚡ child_removed: Child(pid=5600, parent_pid=5467, origin=fork)
+⚡ message: pid=5600, payload={'type': 'open', 'path': '/dev/null'}
+⚡ detached: pid=5301, reason='process-terminated'
+⚡ message: pid=5600, payload={'type': 'open', 'path': '/tmp/frida-4fab83a76a392c22472b88d4de84e9b6/linjector-29'}
+⚡ child_removed: Child(pid=5621, parent_pid=5467, origin=fork)
+⚡ message: pid=5621, payload={'type': 'open', 'path': '/dev/null'}
+⚡ child_added: Child(pid=5675, parent_pid=5600, origin=fork)
+✔ attach(pid=5675)
+✔ enable_child_gating()
+✔ create_script()
+✔ load()
+✔ resume(pid=5675)
+⚡ detached: pid=5621, reason='process-terminated'
+⚡ child_removed: Child(pid=5610, parent_pid=5482, origin=fork)
+⚡ message: pid=5610, payload={'type': 'open', 'path': '/dev/null'}
+⚡ detached: pid=5610, reason='process-terminated'
+⚡ detached: pid=5482, reason='process-terminated'
+⚡ child_removed: Child(pid=5637, parent_pid=5496, origin=fork)
+⚡ message: pid=5637, payload={'type': 'open', 'path': '/dev/null'}
+⚡ detached: pid=5637, reason='process-terminated'
+⚡ detached: pid=5496, reason='process-terminated'
+⚡ detached: pid=5351, reason='process-terminated'
+⚡ child_removed: Child(pid=5654, parent_pid=5545, origin=fork)
+⚡ message: pid=5654, payload={'type': 'open', 'path': '/dev/null'}
+⚡ detached: pid=5654, reason='process-terminated'
+⚡ detached: pid=5545, reason='process-terminated'
+⚡ detached: pid=5377, reason='process-terminated'
+⚡ child_removed: Child(pid=5675, parent_pid=5600, origin=fork)
+⚡ message: pid=5675, payload={'type': 'open', 'path': '/dev/null'}
+⚡ detached: pid=5288, reason='process-terminated'
+⚡ detached: pid=5675, reason='process-terminated'
+⚡ detached: pid=5600, reason='process-terminated'
+⚡ detached: pid=5467, reason='process-terminated'
+⚡ detached: pid=5326, reason='process-terminated'
+⚡ detached: pid=5276, reason='process-terminated'
+⚡ output: pid=5247, fd=1, data=b'wrong\n'
+⚡ detached: pid=5257, reason='process-terminated'
+⚡ output: pid=5247, fd=2, data=b''
+⚡ output: pid=5247, fd=1, data=b''
+⚡ detached: pid=5247, reason='process-terminated'

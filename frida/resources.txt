@@ -1,0 +1,67 @@
+https://reverseengineering.stackexchange.com/questions/6657/why-does-ldd-and-gdb-info-sharedlibrary-show-a-different-library-base-addr
+
+https://github.com/DefinitelyTyped/DefinitelyTyped
+
+VolgaCTF 20202 F-hash:
+flag: 16011432ba16efc8dcf779477985b3b9
+==============================
+With Frida:
+https://sectt.github.io/writeups/Volga20/f-hash/README
+https://jofra.6a.pt/ctf/F-hash
+
+Solving Without frida:
+  (shellcoding assembly )
+	https://red0xff.github.io/writeups/volgactf_fhash/
+	https://lantern.cool/wp-games-2020volgactf/#f-hash 
+https://oalieno.github.io/2020/05/04/f-hash/ 
+https://github.com/oalieno/CTF/tree/master/2020/VolgaCTF/F-Hash
+https://n0nop.com/2020/03/31/VolgaCTF-2020/#F-Hash-250pts
+https://akulpillai.com/posts/volgactf_f-hash/ (new)
+
+
+TSG-CTF-2021-2-Reversing-Tasks
+==============================
+Solving with frida
+	https://nevesnunes.github.io/blog/2021/10/03/CTF-Writeup-TSG-CTF-2021-2-Reversing-Tasks.html#beginners-rev-2021
+
+without frida
+	https://hackmd.io/@mikit/rkej4TLVK Author writeup 
+	https://qiita.com/kusano_k/items/1dfc4bca725cead0f182#beginners-rev-2021-beginner
+	https://project-euphoria.dev/blog/23-tsg-2021/#beginners-rev-2021
+================================
+
+https://security.humanativaspa.it/ghidra2frida-the-new-bridge-between-ghidra-and-frida/
+
+
+https://nibarius.github.io/learning-frida/2020/08/29/veryandroidoso
+
+Frida python examples (blog posts on frida website exists)
+https://github.com/frida/frida-python/tree/main/examples
+
+Other tasks that can be solved with frida:
+https://ctftime.org/writeup/23572
+https://ctftime.org/writeup/28486
+
+
+other labs:
+https://rossmarks.uk/blog/fridalab/
+https://github.com/leonjza/frida-boot
+
+android apks
+https://nibarius.github.io/learning-frida/
+https://braincoke.fr/write-up/other/pinstore-b-sides-san-francisco-ctf-2017/
+https://blog.manchestergreyhats.co.uk/2018/03/28/m1con-ctf-writeup/
+
+other tutorials
+https://braincoke.fr/blog/2021/03/android-reverse-engineering-for-beginners-frida/#about-frida (Javascript)
+
+
+https://github.com/dweinstein/awesome-frida
+
+https://blog.ret2.io/2018/07/25/pwn2own-2018-safari-sandbox/
+
+https://x-c3ll.github.io/posts/Frida-Pwn-Adventure-3/
+
+https://www.romainthomas.fr/post/21-07-pokemongo-anti-frida-jailbreak-bypass/
+
+the frida-tool pip package. The frida-tools package includes the base frida Read Evaluate Print Loop (REPL) tool, but also utilities such as frida-ps, frida-trace and frida-discover.C:\Users\Aero\Downloads\frida_session.py

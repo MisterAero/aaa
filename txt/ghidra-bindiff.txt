@@ -1,0 +1,14 @@
+https://vimeo.com/560185727 - ghidra version tracking
+https://github.com/threatrack/ghidra-patchdiff-correlator
+https://blog.threatrack.de/2019/10/02/ghidra-patch-diff/
+https://static.grumpycoder.net/pixel/support/analyzeHeadlessREADME.html - ghidra
+https://reverseengineering.stackexchange.com/questions/21207/use-ghidra-decompiler-with-command-line
+
+
+
+https://www.slideshare.net/cisoplatform7/bruh-do-you-even-diffdiffing-microsoft-patches-to-find-vulnerabilities?from_action=save
+Bruh! Do you even diff?—Diffing Microsoft Patches to Find Vulnerabilities
+
+
+binary parsers mistakes 
+http://www.uninformed.org/?v=all&a=12&t=txt

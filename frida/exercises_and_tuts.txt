@@ -1,0 +1,53 @@
+
+
+Firda excercises from ctfs:
+=============================
+----------------
+Mobile - android
+----------------
+https://archive.ooo/c/VeryAndroidoso/272/
+https://bannsecurity.com/index.php/home/10-ctf-writeups/55-defcon-quals-2019-veryandroidoso
+https://fireshellsecurity.team/asis-gunshop-gunshopii/
+https://github.com/evyatar9/Writeups/tree/master/CTFs/2022-NahamCon_CTF/Mobile/
+https://braincoke.fr/write-up/other/pinstore-b-sides-san-francisco-ctf-2017/
+https://blog.manchestergreyhats.co.uk/2018/03/28/m1con-ctf-writeup/
+
+
+windows java app
+https://fuzzysecurity.com/tutorials/29.html
+
+
+Gameboy (not alot of frida), just hooking
+https://teamrocketist.github.io/2022/09/30/Reverse-WPI-CTF-2022-PokemonRematch/
+
+windows crypt lib
+https://github.com/Olasergiolas/Writeups/blob/main/HTB%20Business%20CTF%202022/Mr%20Abilgate/Writeups/Mr%20Abilgate.md
+
+(JavaScript)
+https://ctftime.org/writeup/33655
+
+unity,c#
+https://ctftime.org/writeup/31581
+
+android reversing+smali
+https://ctftime.org/task/11358
+
+
+tutorials:
+https://node-security.com/posts/android-hooking-in-frida/
+https://nibarius.github.io/learning-frida/
+https://similarweb.engineering/basic-dynamic-analysis-with-frida/
+
+
+https://googleprojectzero.blogspot.com/2020/08/exploiting-android-messengers-part-3.html
+
+
+https://www.synopsys.com/blogs/software-security/cve-2020-7958-trustlet-tee-attack/
+
+
+https://codemuch.net/posts/tracedctf/
+
+https://www.pnfsoftware.com/blog/reversing-android-protector-virtualization/
+
+https://medium.com/hacker-academy/android-reverse-engineering-with-vs-code-apk-lab-workbench-a1c637a18c95
+

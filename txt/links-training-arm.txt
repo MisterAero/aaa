@@ -1,0 +1,51 @@
+writing to stdin of some process 
+https://serverfault.com/questions/188936/writing-to-stdin-of-background-process
+https://serverfault.com/questions/407902/write-to-the-stdin-of-a-running-process-with-the-same-effect-behaviour-of-direct
+https://serverfault.com/questions/947247/why-does-writing-to-the-console-a-processs-stdin-is-attached-to-doesnt-send-in
+https://serverfault.com/questions/443297/write-to-stdin-of-a-running-process-using-pipe
+
+arm asm
+https://thinkingeek.com/2013/01/11/arm-assembler-raspberry-pi-chapter-3/
+https://www.coranac.com/tonc/text/asm.htm
+https://www.youtube.com/watch?v=BhjJBuX0YCU +shellcode
+
+gdb
+https://azeria-labs.com/debugging-with-gdb-introduction/
+https://sourceware.org/gdb/onlinedocs/gdb/Continuing-and-Stepping.html
+
+stack different offsets gdb
+https://stackoverflow.com/questions/17775186/buffer-overflow-works-in-gdb-but-not-without-it/43109302#43109302
+
+arm shellcode
+https://book-of-gehn.github.io/assets/arm/azeria-arm-challenges/test-egg.c
+https://book-of-gehn.github.io/assets/arm/azeria-arm-challenges/egg.s
+
+https://web.archive.org/web/20200204191804/http://www.phrack.org/issues/58/10.html
+https://azeria-labs.com/process-continuation-shellcode/
+https://github.com/odzhan/shellcode
+https://github.com/alexpark07/ARMSCGen
+https://vishnudevtj.github.io/notes/arm-alphanumeric-shellcode
+https://www.exploit-db.com/papers/15652
+https://shell-storm.org/shellcode/files/shellcode-821.php
+https://github.com/at0mik/WHA/blob/8b8f47327fadf210a0c1e12e6f0a10533cecc252/Payloads/arm/43921.asm
+https://www.virusbulletin.com/virusbulletin/2013/04/shellcoding-arm-part-3
+
+https://github.com/invictus1306/ARM-episodes
+
+https://blog.exploitlab.net/ 
+https://www.puffinsecurity.com/ret2libc-firing-with-its-own-gun/
+
+https://gist.github.com/superkojiman/6a6e44db390d6dfc329a
+
+dev tty
+https://serverfault.com/questions/178457/can-i-send-some-text-to-the-stdin-of-an-active-process-running-in-a-screen-sessi
+
+kernel exploitation
+https://0x434b.dev/dabbling-with-linux-kernel-exploitation-ctf-challenges-to-learn-the-ropes/
+
+https://github.com/andreabonvini/QuarantHacking/blob/9f05e19f9939b832e71dd16ccb04e844ed768f8c/protostar/cheatsheet-and-writeups.md
+
+
+heap
+https://iphelix.medium.com/#heap-3
+https://github.com/z3tta/Exploit-Exercises-Protostar/blob/83743624bd9e77b6b0fbb824e845c668ea614d89/16-Heap3.md

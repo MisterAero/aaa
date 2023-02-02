@@ -1,0 +1,42 @@
+
+testing binaries iot with afl
+https://blog.attify.com/fuzzing-iot-binaries-with-afl-part-ii/
+
+https://www.attify.com/mobile-exploitation-training
+
+
+less related- 
+http://marcusjenkins.com/hacking-cheap-ebay-ip-camera/
+
+
+wigle.net -search for networks by BSSID/MAC, SSID etc, GSM,CDMA WIFI BT , and location
+leakix.net - no results / not useful
+natlas.io - nql syntax ???
+zoomeye.org - chinese site... might be unsafe
+https://www.onyphe.io/.io - need to register and get api access
+ivre.rocks - Network recon framework, including a web interface to browse Nmap scan results.
+docs.binaryedge.io
+viz.greynoise.io - scans for threats? - https://viz.greynoise.io/query/?gnql=tags%3Atelnet%20backdoor
+
+→ Shodan .io
+→ Censys .io
+→ Hunter .io
+→ redhuntlabs .com
+→ fullhunt .io
+→ onyphe .io
+→ fofa .so
+→ socradar .io
+→ synapsint .com
+→ binaryedge .io
+→ ivre .rocks
+→ crt .sh
+→ spyse .com
+→ vulners .com
+→ PublicWWW .com
+→ Pulsedive .com
+→ ZoomEye .org
+→ intelx .io
+→ WiGLE .net
+→ reposify .com
+→ viz. greynoise .io
+

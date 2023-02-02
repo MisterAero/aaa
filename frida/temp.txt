@@ -1,0 +1,49 @@
+i think strace, dtrace, ngrep, wireshark, mitmproxy, LD_PRELOAD, /proc, dstat, yourkit, rr and perf is too much for one talk :(
+
+--runtime {qjs,v8}    script runtime to use
+
+frida 
+
+  -f TARGET, --file TARGET
+                        spawn FILE
+  -F, --attach-frontmost
+                        attach to frontmost application
+	
+ -n NAME, --attach-name NAME
+                        attach to NAME
+  -p PID, --attach-pid PID
+                        attach to PID
+	  -l SCRIPT, --load SCRIPT
+
+--pause
+
+  -o LOGFILE,
+  
+  
+frida-trace (same options as frida)
+  -f TARGET, --file TARGET
+                        spawn FILE
+  -F, --attach-frontmost
+                        attach to frontmost application
+  -I MODULE, --include-module MODULE
+                        include MODULE
+  -X MODULE, --exclude-module MODULE
+                        exclude MODULE
+  -i FUNCTION, --include FUNCTION
+                        include [MODULE!]FUNCTION
+  -x FUNCTION, --exclude FUNCTION
+                        exclude [MODULE!]FUNCTION
+  -a MODULE!OFFSET, --add MODULE!OFFSET
+                        add MODULE!OFFSET
+  -T INCLUDE_IMPORTS, --include-imports INCLUDE_IMPORTS
+                        include program's imports
+  -t MODULE, --include-module-imports MODULE
+                        include MODULE imports
+  -s DEBUG_SYMBOL, --include-debug-symbol DEBUG_SYMBOL
+                        include DEBUG_SYMBOL
+  -q, --quiet           do not format output messages
+  -d, --decorate        add module name to generated onEnter log statement
+  -o OUTPUT, --output OUTPUT
+                        dump messages to file
+						
+frida-discover [options] target

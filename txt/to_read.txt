@@ -1,0 +1,5 @@
+https://www.cyberciti.biz/faq/grep-regular-expressions/
+https://pragprog.com/titles/bhtmux2/tmux-2/
+https://www.korznikov.com/
+https://github.blog/2022-06-16-the-android-kernel-mitigations-obstacle-race/
+https://www.linuxjournal.com/article/5783

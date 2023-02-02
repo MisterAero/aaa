@@ -1,0 +1,26 @@
+todo:
+learn to use qira
+https://github.com/Gallopsled/pwntools-tutorial
+frida
+
+rz-pipe
+
+nm -d (symbols)
+
+man ld.so 
+
+https://github.com/GoSecure/advanced-binary-analysis
+
+https://segfault.me/
+https://www.unicorn-engine.org/
+
+arm rop
+https://bananamafia.dev/post/binary-rop-stackpivot/
+https://ctftime.org/writeup/27929
+
+
+https://www.aon.com/cyber-solutions/aon_cyber_labs/linux-based-inter-process-code-injection-without-ptrace2/
+https://blog.sektor7.net/res/2018/img/py3.png
+
+ghidra automation
+https://www.youtube.com/watch?v=maTMxsToTfg

@@ -1,0 +1,4 @@
+
+heap:
+https://www.synacktiv.com/en/publications/heap-tricks-never-get-old-insomnihack-teaser-2022.html
+https://hackmag.com/coding/htb-ropetwo-uaf/

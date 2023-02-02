@@ -1,0 +1,11 @@
+pacman:
+https://stackoverflow.com/questions/15914790/how-to-get-its-own-ip-address-with-a-socket-address
+https://man7.org/linux/man-pages/man3/getifaddrs.3.html
+https://en.wikibooks.org/wiki/Serial_Programming/termios#Opening.2FClosing_a_Serial_Device
+https://www.gnu.org/software/libc/manual/html_node/Canonical-or-Not.html
+https://www.anycodings.com/1questions/4707296/capture-characters-from-standard-input-without-waiting-for-enter-to-be-pressed
+
+https://en.wikipedia.org/wiki/Out-of-band_data
+https://urchin.earth.li/~twic/Sequenced_Packets_Over_Ordinary_TCP.html
+
+https://www.cprogramming.com/tutorial/compiler_warnings.html

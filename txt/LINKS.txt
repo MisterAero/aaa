@@ -1,0 +1,32 @@
+proc exercise:
+https://github.com/WuBingzheng/memleax/blob/master/proc_info.c
+
+https://github.com/wjcsharp/wintools/blob/master/examples/linuxmemdump.c
+
+some weird project of c tools
+https://github.com/langgithub/ZygoteInject/tree/master/loader/jni
+
+rpi
+ssh - https://jfrog.com/connect/post/ssh-raspberry-pi/
+
+https://raspberrypi-guide.github.io/filesharing/file-synchronisation-rsync-rclone.html
+vnc - https://raspberrypi-guide.github.io/networking/connecting-via-VNC
+https://raspberrypi-guide.github.io/networking/create-direct-ethernet-connection
+	ssh/xrdp
+https://thesecmaster.com/five-easiest-ways-to-connect-raspberry-pi-remotely-in-2021/
+
+nasm 
+https://gist.github.com/yellowbyte/d91da3c3b0bc3ee6d1d1ac5327b1b4b2
+
+assembly ( x86-64)
+------------
+https://repzret.org/p/repzret/ - repz
+xorpd solutions
+https://github.com/AlexAltea/blog/blob/master/posts/2016-10-12-xchg-rax-rax-solutions/_main.md
+
+gdb
+https://sourceware.org/gdb/onlinedocs/gdb/Auto-Display.html
+
+Linux x86-64:
+Plain files for syscalls, errnos, signals, registers and x86_64 instructions
+https://github.com/Mic92/x86_64-linux-cheatsheats
